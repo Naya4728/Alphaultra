@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-weight: normal;
+
+}
+
+p{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    /* font-size: normal; */
+    line-height: 1.5em;
+
+}
+
+h1{
+    text-decoration: capitalize;
+    font-size: 0.8rem;
+    border-block-start: 10px solid;
+    border-block-end: 10px solid;
+}
+
+h2{
+    background-color: #808080;
+    border-block-end:20px solid #ccc;
+     padding-block: 30px;
+    text-align: center;
+    margin: auto;
+
+}
+/* h1 , h2{
+text-decoration: capitalize;
+} */
+
+h2::first-letter{
+color: #ff6347;
+}
+  
+ul, li{
+    list-style-type: lower-greek;
+    border-block-start: 10px solid #808080;
+    
+}
+
+html{
+    font-size: 50px;
+}
+
+
+h2{
+    font-size: 0.6rem;
+}
+section, dl{
+    font-size: 0.5rem;
+}
+section{
+    border border-image: 
+    <img src="pexels-al-amin-muhammad-988616478-27731791.jpg" alt="North West Nigeria" width="300" height="300">;
+}
+
+img:nth-child(odd){
+    border-radius:0px 50px 0px 50px;
+}
+
+img:nth-child(even){
+    border-radius:50px 0px 50px 0px;
+
+}
+a{
+    background-color: #888;
+    color: #fff;
+}
+a:hover{
+    background-color: #3248f0;
+    color: #fff;
+}
+
+a:visted{
+    background-color: pink;
+}
+
+body{
+    margin-inline: auto;
+    width: 70%;
+    background-image: radial-gradient(#ccc, #ddd);
+}
